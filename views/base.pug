@@ -1,0 +1,19 @@
+doctype html
+html
+  head
+    title Saloni's Dance Academy
+    block scripts
+    block style  
+  body
+    nav#navbar
+      ul
+        div#logo
+          img(src="static/bg.jpg")
+          |  SDA
+        li #[a(href="/") home]
+        li #[a(href="/") about]
+        li #[a(href="/") service]
+        li #[a(href="/contact") contact]
+    block content
+    block#footer
+      |copyright @ 2020 Saloni's dance academy.All rights reserved

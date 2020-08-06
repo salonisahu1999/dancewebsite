@@ -1,0 +1,42 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+block style
+    style
+      include ../static/style.css
+   
+block content
+    section#intro
+      div Saloni's Dance Academy
+      div.img Love to Dance
+    section#mission
+      h3 our mission
+      div.card
+        h3 Single
+           div.card-box
+             div.card-img
+               img(src="static/img/card1.png")
+             div.card-content
+                     | Dance is an art and dancers are the artist
+      div.card
+       h3 Duo
+         div.card-box
+             div.card-img
+               img(src="static/img/card2.png")
+             div.card-content
+                     | Dance is an art and dancers are the artist
+      div.card
+       h3 Group
+         div.card-box
+             div.card-img
+               img(src="static/img/card3.jpg")
+             div.card-content
+                    | Dance is an art and dancers are the artist
+    section#sponsers
+      h3 our sponsors
+        div.sponsors-img
+          img(src="static/img/logo1.png")
+          img(src="static/img/logo2.png")
+          img(src="static/img/logo3.png")
+          img(src="static/img/logo4.png")
